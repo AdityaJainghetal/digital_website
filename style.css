@@ -17,7 +17,7 @@
 } */
 
 #main-nav {
-  background: url("/hero.jpg");
+  background: url("hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -29,51 +29,14 @@
  
 
 
-/* body{
-    background: url("/hero.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    height: 200px;
-    position: relative;
-    
-} */
 
-/* body::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.3);
-
-} */
-
-
-
-
-
-
-/* .main-nav::before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.3);
-
-} */
 
 #main-nav .navbar2{
   display: flex;
   justify-content: space-between;
 }
 
-/* body *{
-    z-index: 80;
-} */
+
 
 
 
@@ -90,11 +53,10 @@ nav{
 }
 
 nav h1{
-    /* position: absolute;
-    left: 120px; */
+    
     font-size: 30px;
     color: white;
-    /* z-index: 1; */
+   
     
 
 }
@@ -136,7 +98,6 @@ nav ul li a:hover{
 
 nav h2{
     color: white;
-    /* margin-right: 800vh; */
     font-size: 80px;
     font-weight: 900;
     
@@ -166,7 +127,7 @@ nav .button:hover{
     content: "";
     background-color: #ffca51;
     color: black;
-    /* font-size: 10px; */
+    
     
 }
 
@@ -198,8 +159,6 @@ nav .button:hover{
 
 .container-main h2{
     color: white;
-    /* padding-top: 120px;
-    margin-left: 550px; */
     font-size: 60px;
     display: flex;
     justify-content: center;
@@ -211,8 +170,6 @@ nav .button:hover{
 
 .container-main h3{
     color: rgb(49, 44, 44);
-    /* padding-top: 10px; */
-    /* margin-left: 550px; */
     font-size: 28px;
     color: #ffffff;
     font-weight: 900;
@@ -261,9 +218,9 @@ nav .button:hover{
     font-size: 40px;
     text-align: center;
     color: orange;
-    /* margin: 30px; */
-    /* margin-bottom: 50px; */
+
 }
+
 #about .flex{
     display: flex;
     justify-content: space-around;
@@ -276,13 +233,11 @@ nav .button:hover{
 
 #about .flex .about-content{
     border: 0.1px solid whitesmoke;
-    /* border-radius: 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* padding: 25px; */
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 35px;
@@ -313,7 +268,6 @@ nav .button:hover{
     color: black;
     margin-left: 20px;
     position: relative;
-    /* top: 60px; */
     padding-left: 20px;
     font-family: "Poppins", sans-serif;
     
@@ -323,7 +277,6 @@ nav .button:hover{
 #service{
         display: flex;
         justify-content: space-between;
-        /* align-items: center; */
         padding: 80px;
         letter-spacing: 1px;
 }
@@ -341,7 +294,7 @@ nav .button:hover{
     bottom: 30px;
     cursor: pointer;
     transition: all 2s ease-in 5s;
-    /* transition: all 1s linear 5s; */
+
     
 }
 
@@ -380,7 +333,6 @@ nav .button:hover{
 
 #service3{
     display: flex;
-    /* justify-content: center; */
     padding: 80px;
     justify-content: space-between;
 
@@ -412,7 +364,6 @@ nav .button:hover{
     grid-auto-columns: minmax(50px,auto-fill);
     padding: 20px;
     justify-items: center;
-    /* height: 550px; */
     justify-items: center;
 }
 
@@ -438,7 +389,6 @@ nav .button:hover{
 #service4 .container .items{
   display: flex;
   flex-direction: column;
-  /* grid-template-columns: 1fr; */
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -457,7 +407,7 @@ nav .button:hover{
 }
 
 #service5{
-    background-image: url(/cta-bg.jpg);
+    background-image: url(cta-bg.jpg);
    display: grid;
     justify-content: center;
     height: 700px;
@@ -607,79 +557,6 @@ nav .button:hover{
  
   
 
-  /* #Portfolio .box10 h1{
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-  #Portfolio .box10 .box12 img{
-        height: 650px;
-        width: 720px;
-        padding-left: 15px;
-       
-  } */
-
-
-/* #Portfolio .box12{ */
-        /* width: 100%; */
-        /* font-family:  "Poppins", sans-serif; */
-  /* } */
-
- /* #Portfolio .box11{
-         
-            
-            text-align: end;
-            align-items: end;
-            margin-right: 20px;
-            flex-direction: column;
-            display: flex;
-            margin-right: 100px;
-            position:relative;
-            font-size: 20px;
-  }  */
-
-  /* #Portfolio .box10 .box13{
-        padding-right: 20px;
-  }
-
-  #Portfolio .box10 .box11 i{
-    color: #ffca51;
-  }
-
-  #Portfolio .box11:hover{
-        color: #ffca51;
-        /* font-size: 52px; */
-  /* }
-
-  #Portfolio .box10 .box13 p{
-    font-size: 14px;
-    margin-left:920px;
-  }
-
-  #Portfolio .box10 .box13 h1{
-    font-size: 30px;
-    margin-left:920px;
-  } */ 
-
-
-  /* #Portfolio2{
-    background-color: black;
-    position: relative;
-    /* position: absolute; */
-    /* top: 100px; */
-    /* display: flex; */
-    /* justify-content: stretch;
-    z-index: 4;
-    bottom: 20px;
-    
-  } */ 
-
-  /* #Portfolio .box13{
-        display: flex;
-        flex-direction: row;
-  } */
-
 
 
   #Portfolio2{
@@ -730,11 +607,6 @@ nav .button:hover{
 }
 
 
-  /* #Portfolio .main-content .img3 img{
-    position: relative;
-    top: 40px;
-  } */
-
  
 
 
@@ -742,33 +614,10 @@ nav .button:hover{
 
 #Portfolio2 .main-content .main-img img{
         width: 50%;
-        /* height: 20px; */
+      
 }
 
 
-
-/* .member-content{ */
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    /* height: 200px; */
-    /* width: 100vh; */
-
-    /* grid-gap: 20px; */
-    /* grid-auto-rows: minmax(200px,auto-fill); */
-
-/* } */
-
-/* #member .team1{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
-    grid-gap: 20px;
-    grid-auto-rows: minmax(250px,auto-fill);
-    grid-auto-columns: minmax(50px,auto-fill);
-    padding: 20px;
-    justify-items: center;
-    /* height: 520px; */
-    /* justify-content: space-around;
-} */
 
 #member .member-content{
   display: flex;
@@ -881,41 +730,31 @@ color: #ffca51;
 
  #contact2 .info{
     padding-right: 200px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     margin-bottom: 20px;
  
  }
  #contact2 .info h3{
     font-size: 20px;
     font-weight: 600;
-    /* padding-left: 20px; */
+
    
  }
 
  #contact2 .info p{
     font-size: 20px;
     font-weight: 300;
-    /* padding-left: 20px; */
+ 
    
  }
 
- /* #contact2{
-    margin-top: 40px;
- } */
+
 
  #contact2 .info{
   display: flex;
   font-size: 20px;
-  /* width: 100%; */
-  /* height: 44px; */
-  
   flex-direction: row;
    transition: 0.3s;
-
    font-size: 14px;
-   /* padding: 10px 15px; */
    box-shadow: none;
    border-radius: 0;
    
@@ -1012,22 +851,6 @@ color: #ffca51;
 
 
 
-
-/* .footer  .social-media a {
-  color: 
-color-mix(in srgb, var(--default-color), transparent 30%);
-  background-color: 
-color-mix(in srgb, var(--default-color) 5%, white 10%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  font-size: 16px;
-  margin-right: 10px;
-  transition: 0.3s;
-} */
 .checkbtn{
   font-size: 25px;
   display: none;
@@ -1077,33 +900,6 @@ color-mix(in srgb, var(--default-color) 5%, white 10%);
     grid-template-columns: 1fr;
   }
 
-  /* #main-nav .navbar2 .main-nav3 label{
-    display: block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #main-nav .navbar2 .main-nav3 ul{
-    flex-direction: column;
-    position: absolute;
-    color: white;
-    top: 90px;
-    width: 100%;
-    display: none;
-  }
-
-  #main-nav .navbar2 .main-nav3 label{
-    display: block;
-  } */
-
-  
-
-
-  /* #click:checked ~ #main .navbar2 .main-nav3  ul{
-    display: block;
-    
-  } */
 
   
 .checkbtn i{
@@ -1156,7 +952,7 @@ color-mix(in srgb, var(--default-color) 5%, white 10%);
 }
 
 #main-nav {
-  background: url("/hero.jpg");
+  background: url("hero.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
